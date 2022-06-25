@@ -17,6 +17,8 @@ Notice: If i put the 1159731.jpg file it's for default payload
 
 Start drmserver.py using 'python3 drmserver.py &'
 
+Change Desktop/115971.jpg to 115971.jpg in 'hack' file
+
 then start drmexample.py, type 44559999 as serial key, did it activate the payload?
 
 If no then that's normal because it's the correct serial key

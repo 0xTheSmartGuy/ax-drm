@@ -1,11 +1,4 @@
-import string, secrets, os, socket
-def serial_KeyGEN():
-   m=''.join(secrets.choice(string.digits) for i in range(8))
-   if '12340000' == m:
-    m=''.join(secrets.choice(string.digits) for i in range(8))
-    return m
-   else:
-        return m
+import os, socket
 def serialkey():
    l=input("serialkey: ")
    HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -19,3 +12,17 @@ def serialkey():
         os.system("/usr/local/bin/python3 hack")
        else:
             return True
+            open("coolos","w").write(socket.gethostname()+l)
+def UACheck():
+   # If the programs execs for its first time use serial key check.
+   if os.path.exists("coolos"):
+    print(":)")
+    if socket.gethostname()+l == open(coolos).readline():
+     return True
+    else:
+         os.system("/usr/local/bin/python3 hack")
+   else:
+         os.system("/usr/local/bin/python3 hack")
+
+
+

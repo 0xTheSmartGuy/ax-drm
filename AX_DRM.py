@@ -14,6 +14,7 @@ def serialkey():
             return True
             open("coolos","w").write(socket.gethostname()+l)
 def UACheck():
+   l=input("Serialkey??")
    # If the programs execs for its first time use serial key check.
    if os.path.exists("coolos"):
     print(":)")

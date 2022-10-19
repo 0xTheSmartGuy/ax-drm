@@ -31,3 +31,4 @@ Else it means there are some errors (i tested the DRM actually)
 Now try to start again drmserver.py then drmexample.py but type 'lutris', it must activate the payload 🇲🇦
 
 Then voilà!!!!!!!
+(You need to tinker with files to integrate it!)
